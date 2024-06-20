@@ -26,7 +26,7 @@ export default {
         const cekKodam = () => {
             if (inputNama.value.trim() !== '') {
                 hasilKodam.value = getRandomKodam();
-                speakResult(`Kodam ${inputNama.value} ${hasilKodam.value}`); // Speak the result
+                speakResult(`Kodam ${inputNama.value} adalah ${hasilKodam.value}`); // Speak the result
                 setTimeout(() => {
                     hasilKodam.value = null;
                 }, 4000);
