@@ -5,7 +5,7 @@
             class="w-full p-2 mb-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
         <button @click="cekKodam"
             class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
-        <p v-if="hasilKodam" class="text-white mt-4">Kodam {{ inputNama }} {{ hasilKodam }}</p>
+        <p v-if="hasilKodam" class="text-white mt-4">Kodam {{ inputNama }} adalah {{ hasilKodam }}</p>
     </div>
 </template>
 
