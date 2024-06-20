@@ -1,6 +1,6 @@
 <template>
     <div class="bg-[#34495e] border-2 border-[#485563] border-solid p-8 m-auto my-40 w-80 rounded-lg">
-        <h4 class="text-white text-lg mb-4">CEK KODAM</h4>
+        <h4 class="text-white text-lg mb-4 m-auto">CEK KODAM</h4>
         <input v-model="inputNama" type="text" placeholder="Masukkan Nama"
             class="w-full p-2 mb-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
         <button @click="cekKodam"
