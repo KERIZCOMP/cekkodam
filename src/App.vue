@@ -16,7 +16,7 @@ export default {
     setup() {
         const inputNama = ref('');
         const hasilKodam = ref(null);
-        const kodamList = ['Gayung Pecah', 'Pace', 'Tukul Arwana', 'Setang Motor', 'Letkol BIBD', 'Genderuwo Pargoy', 'Kenalpot Bolong', 'Kipas Muter'];
+        const kodamList = ['Gayung Pecah', 'Pace', 'Tukul Arwana', 'Setang Motor', 'Letkol BIBD', 'Genderuwo Pargoy', 'Kenalpot Bolong', 'Kipas Muter', 'Macan Madura', 'Sate Madura', 'Angsa Kungfu'];
 
         const getRandomKodam = () => {
             let randomIndex = Math.floor(Math.random() * kodamList.length);
